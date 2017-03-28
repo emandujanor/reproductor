@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+  <!--<link rel="shortcut icon" tye="image/x-icon" href="favicon.ico">-->
+    <title>Reproductor</title>
+  </head>
+  <body>
+    <audio id="music">
+      <source src="assets/inserts/podcast_catalan.mp3" type="audio/mpeg">
+    </audio>
+    </br>
+
+    <button id="play" onclick="reproducir();">Play</button>
+    <button id="pause" onclick="detener();">Pause</button>
+    <button id="volUp" onclick="volUp();">Vol+</button>
+    <button id="volDn" onclick="volDn();">Vol-</button>
+    <button id="regresar" onclick="atras();"> &#60;&#60; Regresar </button>
+    <button id="adelantar" onclick="adelante();">Adelantar &#62;&#62;</button>
+
+    <script src="assets/js/reproductorDeAudio.js"></script>
+  </body>
+</html>
